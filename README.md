@@ -11,7 +11,12 @@ install_github("CCICB/somaticflags")
 ## Quick Start
 ```
 library(somaticflags)
-print(somaticflags)
+
+# List Gene Names
+somaticflags_vector
+
+# Print a dataframe describing the source of each somatic flag
+somaticflags
 ```
 
 ## Data
