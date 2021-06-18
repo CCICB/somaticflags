@@ -18,10 +18,10 @@ install_github("CCICB/somaticflags")
 library(somaticflags)
 
 # List Gene Names
-somaticflags_vector
+somaticflags
 
 # Print a dataframe describing the source of each somatic flag
-somaticflags
+somaticflags_df
 ```
 
 ## Data
@@ -170,7 +170,7 @@ somaticflags
 
 Genelist compiled from:
 1. [**Mutational heterogeneity in cancer and the search for new cancer-associated genes**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3919509/) (Lawrence et al. 2013)
-2. [**FLAGS, frequently mutated genes in public exomes**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4267152/) (Shyr et al. 2014) 
+2. [**FLAGS, frequently mutated genes in public exomes**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4267152/) (Shyr et al. 2014)
     - top 20 flags included
 
 Please cite both publications if you find this package useful.

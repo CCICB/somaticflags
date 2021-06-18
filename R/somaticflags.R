@@ -8,10 +8,10 @@ update_data_objects <- function(){
   if(!requireNamespace("devtools", quietly = TRUE)) stop("Please install `devtools` before running `update_data_objects()`")
   if(!requireNamespace("usethis", quietly = TRUE)) stop("Please install `usethis` before running `update_data_objects()`")
 
-  somaticflags <- read_somaticflags()
-  somaticflags_vector <- somaticflags[["Gene"]]
+  somaticflags_df <- read_somaticflags()
+  somaticflags <- somaticflags_df[["Gene"]]
+  usethis::use_data(somaticflags_df, overwrite = TRUE)
   usethis::use_data(somaticflags, overwrite = TRUE)
-  usethis::use_data(somaticflags_vector, overwrite = TRUE)
   devtools::document()
 }
 
