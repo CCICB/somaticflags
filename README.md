@@ -26,6 +26,8 @@ somaticflags_df
 
 ## Data
 
+If not using R, you can download our list of somaticflags [**here**](https://raw.githubusercontent.com/CCICB/somaticflags/main/inst/extdata/somaticflags.csv)
+
 | Gene    	| Source                                        	| Reason           	|
 |---------	|-----------------------------------------------	|------------------	|
 | TTN     	| 10.1186/s12920-014-0064-y;10.1038/nature12213 	| TOP20FLAGS;OTHER 	|
