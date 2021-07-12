@@ -10,8 +10,7 @@ An R data package containing a list of genes which are frequently mutated in som
 
 ## Installation
 ```
-library(devtools)
-install_github("CCICB/somaticflags")
+install.packages("somaticflags", repos = "https://ropensci.r-universe.dev")
 ```
 
 ## Quick Start
