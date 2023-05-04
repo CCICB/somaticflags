@@ -1,5 +1,5 @@
 Package: somaticflags
-Title: What the Package Does (One Line, Title Case)
+Title: Database of Somatic Flags
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: Database of genes which frequently sustain somatic mutations, but are unlikely to drive cancer.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
