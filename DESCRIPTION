@@ -2,11 +2,11 @@ Package: somaticflags
 Title: Database of Somatic Flags
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person(given = "Sam",
+           family = "El-Kamand",
+           role = c("aut", "cre", "cph"),
+           email = "selkamand@ccia.org.au",
+           comment = c(ORCID = "https://orcid.org/0000-0003-2270-8088"))
 Description: Database of genes which frequently sustain somatic mutations, but are unlikely to drive cancer.
 License: MIT + file LICENSE
 Encoding: UTF-8
