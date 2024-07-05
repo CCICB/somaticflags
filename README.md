@@ -10,7 +10,7 @@ An R data package containing a list of genes which are frequently mutated in som
 
 ## Installation
 ```
-install.packages("somaticflags", repos = "https://ropensci.r-universe.dev")
+install.packages("somaticflags")
 ```
 
 ## Quick Start
@@ -171,8 +171,8 @@ If not using R, you can download our list of somaticflags [**here**](https://raw
 | TPTE    	| 10.1038/nature12213                           	| OTHER            	|
 
 Genelist compiled from:
-1. [**Mutational heterogeneity in cancer and the search for new cancer-associated genes**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3919509/) (Lawrence et al. 2013)
-2. [**FLAGS, frequently mutated genes in public exomes**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4267152/) (Shyr et al. 2014)
+1. [**Mutational heterogeneity in cancer and the search for new cancer-associated genes**](https://doi.org/10.1038/nature12213) (Lawrence et al. 2013)
+2. [**FLAGS, frequently mutated genes in public exomes**](https://doi.org/10.1038/nature12213) (Shyr et al. 2014)
     - top 20 flags included
 
 Please cite both publications if you find this package useful.
