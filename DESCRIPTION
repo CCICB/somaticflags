@@ -2,19 +2,24 @@ Package: somaticflags
 Title: Database of Somatic Flags
 Version: 0.0.0.9000
 Authors@R: 
+    c(
     person(given = "Sam",
            family = "El-Kamand",
-           role = c("aut", "cre", "cph"),
+           role = c("aut", "cre"),
            email = "selkamand@ccia.org.au",
-           comment = c(ORCID = "https://orcid.org/0000-0003-2270-8088"))
+           comment = c(ORCID = "https://orcid.org/0000-0003-2270-8088")),
+    person(given = "Children's Cancer Institute Australia", role = "cph")
+    )
 Description: Database of genes which frequently sustain somatic mutations, but are unlikely to drive cancer.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.1
 Depends: 
     R (>= 2.10)
 Suggests: 
     usethis,
     devtools
+URL: https://github.com/CCICB/somaticflags
+BugReports: https://github.com/CCICB/somaticflags/issues
