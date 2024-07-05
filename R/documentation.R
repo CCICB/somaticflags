@@ -5,7 +5,7 @@
 #'
 #' @format A vector with 139 gene names:
 #'
-#' @source \url{10.1186/s12920-014-0064-y;10.1038/nature12213}
+#' @source \url{https://doi.org/10.1038/nature12213} and \url{https://doi.org/10.1186/s12920-014-0064-y}
 #'
 #' @examples
 #' data(somaticflags)
@@ -26,7 +26,7 @@
 #'   ...
 #' }
 #'
-#' @source \url{10.1186/s12920-014-0064-y;10.1038/nature12213}
+#' @source \url{https://doi.org/10.1038/nature12213} and \url{https://doi.org/10.1186/s12920-014-0064-y}
 #'
 #' @examples
 #' data(somaticflags_df)

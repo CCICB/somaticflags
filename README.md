@@ -172,7 +172,7 @@ If not using R, you can download our list of somaticflags [**here**](https://raw
 
 Genelist compiled from:
 1. [**Mutational heterogeneity in cancer and the search for new cancer-associated genes**](https://doi.org/10.1038/nature12213) (Lawrence et al. 2013)
-2. [**FLAGS, frequently mutated genes in public exomes**](https://doi.org/10.1038/nature12213) (Shyr et al. 2014)
+2. [**FLAGS, frequently mutated genes in public exomes**](https://doi.org/10.1186/s12920-014-0064-y) (Shyr et al. 2014)
     - top 20 flags included
 
 Please cite both publications if you find this package useful.
