@@ -1,6 +1,6 @@
 # somaticflags
 ![r-universe](https://CCICB.r-universe.dev/badges/somaticflags)
-
+[![CRAN checks](https://badges.cranchecks.info/summary/somaticflags.svg)](https://cran.r-project.org/web/checks/check_results_somaticflags.html)
 An R data package containing a list of genes which are frequently mutated in somatic cancer datasets but are unlikely to drive disease
 
 ## Table of Contents
