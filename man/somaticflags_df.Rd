@@ -15,7 +15,7 @@ A data.frame with 139 gene names:
 }
 }
 \source{
-\url{https://doi.org/10.1038/nature12213} and \url{https://doi.org/10.1186/s12920-014-0064-y}
+\doi{10.1038/nature12213} and \doi{10.1186/s12920-014-0064-y}
 }
 \usage{
 somaticflags_df
